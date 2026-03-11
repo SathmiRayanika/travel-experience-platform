@@ -1,4 +1,4 @@
-const BASE = '/api';
+const BASE = 'https://travel-experience-platform-production.up.railway.app/api';
 
 function getToken() {
   return localStorage.getItem('token');
